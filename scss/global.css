@@ -3,324 +3,414 @@
   font-family: "Canela Text Trial Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Text Trial Regular"), url("../assets/fonts/Canela_Deck/CanelaText-Regular-Trial.woff") format("woff");
+  src: local("Canela Text Trial Regular"), url("fonts/Canela/CanelaText-Regular-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Text Trial Regular No 2";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Text Trial Regular No 2"), url("../assets/fonts/Canela_Deck/CanelaText-RegularNo2-Trial.woff") format("woff");
+  src: local("Canela Text Trial Regular No 2"), url("CanelaText-RegularNo2-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Text Trial Regular Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Text Trial Regular Italic"), url("../assets/fonts/Canela_Deck/CanelaText-RegularItalic-Trial.woff") format("woff");
+  src: local("Canela Text Trial Regular Italic"), url("CanelaText-RegularItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Text Trial Regular No 2 Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Text Trial Regular No 2 Italic"), url("../assets/fonts/Canela_Deck/CanelaText-RegularNo2Italic-Trial.woff") format("woff");
+  src: local("Canela Text Trial Regular No 2 Italic"), url("CanelaText-RegularNo2Italic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Text Trial Thin";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Text Trial Thin"), url("../assets/fonts/Canela_Deck/CanelaText-Thin-Trial.woff") format("woff");
+  src: local("Canela Text Trial Thin"), url("CanelaText-Thin-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Text Trial Thin Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Text Trial Thin Italic"), url("../assets/fonts/Canela_Deck/CanelaText-ThinItalic-Trial.woff") format("woff");
+  src: local("Canela Text Trial Thin Italic"), url("CanelaText-ThinItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Text Trial Light";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Text Trial Light"), url("../assets/fonts/Canela_Deck/CanelaText-Light-Trial.woff") format("woff");
+  src: local("Canela Text Trial Light"), url("CanelaText-Light-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Text Trial Light Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Text Trial Light Italic"), url("../assets/fonts/Canela_Deck/CanelaText-LightItalic-Trial.woff") format("woff");
+  src: local("Canela Text Trial Light Italic"), url("CanelaText-LightItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Text Trial Medium";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Text Trial Medium"), url("../assets/fonts/Canela_Deck/CanelaText-Medium-Trial.woff") format("woff");
+  src: local("Canela Text Trial Medium"), url("fonts/Canela/CanelaText-Medium-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Text Trial Medium Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Text Trial Medium Italic"), url("../assets/fonts/Canela_Deck/CanelaText-MediumItalic-Trial.woff") format("woff");
+  src: local("Canela Text Trial Medium Italic"), url("CanelaText-MediumItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Text Trial Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Text Trial Bold"), url("../assets/fonts/Canela_Deck/CanelaText-Bold-Trial.woff") format("woff");
+  src: local("Canela Text Trial Bold"), url("fonts/Canela/CanelaText-Bold-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Text Trial Bold Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Text Trial Bold Italic"), url("../assets/fonts/Canela_Deck/CanelaText-BoldItalic-Trial.woff") format("woff");
+  src: local("Canela Text Trial Bold Italic"), url("CanelaText-BoldItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Text Trial Black";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Text Trial Black"), url("../assets/fonts/Canela_Deck/CanelaText-Black-Trial.woff") format("woff");
+  src: local("Canela Text Trial Black"), url("CanelaText-Black-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Text Trial Black Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Text Trial Black Italic"), url("../assets/fonts/Canela_Deck/CanelaText-BlackItalic-Trial.woff") format("woff");
+  src: local("Canela Text Trial Black Italic"), url("CanelaText-BlackItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Trial Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Trial Regular"), url("../assets/fonts/Canela_Deck/Canela-Regular-Trial.woff") format("woff");
+  src: local("Canela Trial Regular"), url("Canela-Regular-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Condensed Trial Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Condensed Trial Regular"), url("../assets/fonts/Canela_Deck/CanelaCondensed-Regular-Trial.woff") format("woff");
+  src: local("Canela Condensed Trial Regular"), url("CanelaCondensed-Regular-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Deck Trial Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Deck Trial Regular"), url("../assets/fonts/Canela_Deck/CanelaDeck-Regular-Trial.woff") format("woff");
+  src: local("Canela Deck Trial Regular"), url("CanelaDeck-Regular-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Trial Regular Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Trial Regular Italic"), url("../assets/fonts/Canela_Deck/Canela-RegularItalic-Trial.woff") format("woff");
+  src: local("Canela Trial Regular Italic"), url("Canela-RegularItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Condensed Trial Regular Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Condensed Trial Regular Italic"), url("../assets/fonts/Canela_Deck/CanelaCondensed-RegularItalic-Trial.woff") format("woff");
+  src: local("Canela Condensed Trial Regular Italic"), url("CanelaCondensed-RegularItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Deck Trial Regular Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Deck Trial Regular Italic"), url("../assets/fonts/Canela_Deck/CanelaDeck-RegularItalic-Trial.woff") format("woff");
+  src: local("Canela Deck Trial Regular Italic"), url("CanelaDeck-RegularItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Trial Thin";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Trial Thin"), url("../assets/fonts/Canela_Deck/Canela-Thin-Trial.woff") format("woff");
+  src: local("Canela Trial Thin"), url("Canela-Thin-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Condensed Trial Thin";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Condensed Trial Thin"), url("../assets/fonts/Canela_Deck/CanelaCondensed-Thin-Trial.woff") format("woff");
+  src: local("Canela Condensed Trial Thin"), url("CanelaCondensed-Thin-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Deck Trial Thin";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Deck Trial Thin"), url("../assets/fonts/Canela_Deck/CanelaDeck-Thin-Trial.woff") format("woff");
+  src: local("Canela Deck Trial Thin"), url("CanelaDeck-Thin-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Trial Thin Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Trial Thin Italic"), url("../assets/fonts/Canela_Deck/Canela-ThinItalic-Trial.woff") format("woff");
+  src: local("Canela Trial Thin Italic"), url("Canela-ThinItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Condensed Trial Thin Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Condensed Trial Thin Italic"), url("../assets/fonts/Canela_Deck/CanelaCondensed-ThinItalic-Trial.woff") format("woff");
+  src: local("Canela Condensed Trial Thin Italic"), url("CanelaCondensed-ThinItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Deck Trial Thin Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Deck Trial Thin Italic"), url("../assets/fonts/Canela_Deck/CanelaDeck-ThinItalic-Trial.woff") format("woff");
+  src: local("Canela Deck Trial Thin Italic"), url("CanelaDeck-ThinItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Trial Light";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Trial Light"), url("../assets/fonts/Canela_Deck/Canela-Light-Trial.woff") format("woff");
+  src: local("Canela Trial Light"), url("Canela-Light-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Condensed Trial Light";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Condensed Trial Light"), url("../assets/fonts/Canela_Deck/CanelaCondensed-Light-Trial.woff") format("woff");
+  src: local("Canela Condensed Trial Light"), url("CanelaCondensed-Light-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Deck Trial Light";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Deck Trial Light"), url("../assets/fonts/Canela_Deck/CanelaDeck-Light-Trial.woff") format("woff");
+  src: local("Canela Deck Trial Light"), url("CanelaDeck-Light-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Trial Light Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Trial Light Italic"), url("../assets/fonts/Canela_Deck/Canela-LightItalic-Trial.woff") format("woff");
+  src: local("Canela Trial Light Italic"), url("Canela-LightItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Condensed Trial Light Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Condensed Trial Light Italic"), url("../assets/fonts/Canela_Deck/CanelaCondensed-LightItalic-Trial.woff") format("woff");
+  src: local("Canela Condensed Trial Light Italic"), url("CanelaCondensed-LightItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Deck Trial Light Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Deck Trial Light Italic"), url("../assets/fonts/Canela_Deck/CanelaDeck-LightItalic-Trial.woff") format("woff");
+  src: local("Canela Deck Trial Light Italic"), url("CanelaDeck-LightItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Trial Medium";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Trial Medium"), url("../assets/fonts/Canela_Deck/Canela-Medium-Trial.woff") format("woff");
+  src: local("Canela Trial Medium"), url("Canela-Medium-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Condensed Trial Medium";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Condensed Trial Medium"), url("../assets/fonts/Canela_Deck/CanelaCondensed-Medium-Trial.woff") format("woff");
+  src: local("Canela Condensed Trial Medium"), url("CanelaCondensed-Medium-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Deck Trial Medium";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Deck Trial Medium"), url("../assets/fonts/Canela_Deck/CanelaDeck-Medium-Trial.woff") format("woff");
+  src: local("Canela Deck Trial Medium"), url("fonts/Canela/CanelaDeck-Medium-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Trial Medium Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Trial Medium Italic"), url("../assets/fonts/Canela_Deck/Canela-MediumItalic-Trial.woff") format("woff");
+  src: local("Canela Trial Medium Italic"), url("Canela-MediumItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Condensed Trial Medium Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Condensed Trial Medium Italic"), url("../assets/fonts/Canela_Deck/CanelaCondensed-MediumItalic-Trial.woff") format("woff");
+  src: local("Canela Condensed Trial Medium Italic"), url("CanelaCondensed-MediumItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Deck Trial Medium Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Deck Trial Medium Italic"), url("../assets/fonts/Canela_Deck/CanelaDeck-MediumItalic-Trial.woff") format("woff");
+  src: local("Canela Deck Trial Medium Italic"), url("CanelaDeck-MediumItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Trial Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Trial Bold"), url("../assets/fonts/Canela_Deck/Canela-Bold-Trial.woff") format("woff");
+  src: local("Canela Trial Bold"), url("Canela-Bold-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Condensed Trial Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Condensed Trial Bold"), url("../assets/fonts/Canela_Deck/CanelaCondensed-Bold-Trial.woff") format("woff");
+  src: local("Canela Condensed Trial Bold"), url("CanelaCondensed-Bold-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Deck Trial Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Deck Trial Bold"), url("../assets/fonts/Canela_Deck/CanelaDeck-Bold-Trial.woff") format("woff");
+  src: local("Canela Deck Trial Bold"), url("fonts/Canela/CanelaDeck-Bold-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Trial Bold Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Trial Bold Italic"), url("../assets/fonts/Canela_Deck/Canela-BoldItalic-Trial.woff") format("woff");
+  src: local("Canela Trial Bold Italic"), url("Canela-BoldItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Condensed Trial Bold Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Condensed Trial Bold Italic"), url("../assets/fonts/Canela_Deck/CanelaCondensed-BoldItalic-Trial.woff") format("woff");
+  src: local("Canela Condensed Trial Bold Italic"), url("CanelaCondensed-BoldItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Deck Trial Bold Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Deck Trial Bold Italic"), url("../assets/fonts/Canela_Deck/CanelaDeck-BoldItalic-Trial.woff") format("woff");
+  src: local("Canela Deck Trial Bold Italic"), url("CanelaDeck-BoldItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Trial Black";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Trial Black"), url("../assets/fonts/Canela_Deck/Canela-Black-Trial.woff") format("woff");
+  src: local("Canela Trial Black"), url("Canela-Black-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Condensed Trial Black";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Condensed Trial Black"), url("../assets/fonts/Canela_Deck/CanelaCondensed-Black-Trial.woff") format("woff");
+  src: local("Canela Condensed Trial Black"), url("CanelaCondensed-Black-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Deck Trial Black";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Deck Trial Black"), url("../assets/fonts/Canela_Deck/CanelaDeck-Black-Trial.woff") format("woff");
+  src: local("Canela Deck Trial Black"), url("CanelaDeck-Black-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Trial Black Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Trial Black Italic"), url("../assets/fonts/Canela_Deck/Canela-BlackItalic-Trial.woff") format("woff");
+  src: local("Canela Trial Black Italic"), url("Canela-BlackItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Condensed Trial Black Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Condensed Trial Black Italic"), url("../assets/fonts/Canela_Deck/CanelaCondensed-BlackItalic-Trial.woff") format("woff");
+  src: local("Canela Condensed Trial Black Italic"), url("CanelaCondensed-BlackItalic-Trial.woff") format("woff");
 }
 @font-face {
   font-family: "Canela Deck Trial Black Italic";
   font-style: normal;
   font-weight: normal;
-  src: local("Canela Deck Trial Black Italic"), url("../assets/fonts/Canela_Deck/CanelaDeck-BlackItalic-Trial.woff") format("woff");
+  src: local("Canela Deck Trial Black Italic"), url("CanelaDeck-BlackItalic-Trial.woff") format("woff");
 }
+/*--------Variables--------*/
+/*-------------------------*/
 body {
   margin: 0;
   padding: 0;
 }
 body h1 {
-  font-size: 5em;
-  font-family: "Canela Text Trial Regular", serif;
+  font-size: 8em;
+  font-family: "Canela Text Trial Bold", serif;
+  color: #DA5462;
+  margin: 20px 0 20px 0;
 }
 body h2 {
-  font-size: 4em;
+  font-size: 5em;
+  font-family: "Canela Text Trial Bold", serif;
+  color: #DA5462;
+  margin: 20px 0 20px 0;
 }
 body h3 {
-  font-size: 3em;
+  font-size: 3.4em;
+  font-family: "Canela Text Trial Bold", serif;
+  color: #DA5462;
 }
 body h4 {
-  font-size: 2em;
+  font-size: 2.4em;
+  font-family: "Canela Text Trial Medium", serif;
+  margin: 20px 0 20px 0;
+}
+body p {
+  font-size: 2.4em;
+  font-family: "Canela Text Trial Regular", serif;
+  margin: 20px 0 20px 0;
+  color: #1D1D1D;
+}
+body .text-link {
+  font-size: 2.4em;
+  font-family: "Canela Deck Trial Medium", serif;
+  margin: 20px 0 20px 0;
+  color: #1D1D1D;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+body .text-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 7px;
+  bottom: 0;
+  left: 0;
+  background-color: #DA5462;
+  transform-origin: bottom left;
+  transition: transform 0.25s ease-out;
+}
+body .text-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 body header {
   padding: 75px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+body header #hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 100vh;
+  width: 70vw;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #f6f6f6;
+}
+body header #hamburger-menu hr {
+  height: 10px;
+  background-color: #DA5462;
+  width: 60%;
+  margin: 0;
+}
+body .container {
+  padding: 50px;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #EFEFEF;
+  padding: 50px;
+}
+body footer #footer-link-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body footer #social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body footer #social-container #social-links-container {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+body footer #social-container #social-links-container a {
+  transition: fill 0.25s ease-in-out;
+}
+body footer #social-container #social-links-container a:hover {
+  fill: #DA5462;
 }
 
 /*# sourceMappingURL=global.css.map */

@@ -1,23 +1,80 @@
 @import "fonts.scss";
+@import "mixins.scss";
+
+/*--------Variables--------*/
+
+$primary-500: #DA5462;
+$black: #1D1D1D;
+$title-fonts: 'Canela Text Trial Bold', serif;
+$h4-fonts: 'Canela Text Trial Medium', serif;
+$p-fonts: 'Canela Text Trial Regular', serif;
+$a-fonts: 'Canela Deck Trial Medium', serif;
+
+/*-------------------------*/
+
 
 body {
   margin: 0;
   padding: 0;
   h1 {
-    font-size: 5em;
-    font-family: "Canela Text Trial Regular", serif;
+    font-size: 8em;
+    font-family: $title-fonts;
+    color: $primary-500;
+    margin: 20px 0 20px 0;
   }
 
   h2 {
-    font-size: 4em;
+    font-size: 5em;
+    font-family: $title-fonts;
+    color: $primary-500;
+    margin: 20px 0 20px 0;
   }
 
   h3 {
-    font-size: 3em;
+    font-size: 3.4em;
+    font-family: $title-fonts;
+    color: $primary-500;
   }
 
   h4 {
-    font-size: 2em;
+    font-size: 2.4em;
+    font-family: $h4-fonts;
+    margin: 20px 0 20px 0;
+  }
+
+  p {
+    font-size: 2.4em;
+    font-family: $p-fonts;
+    margin: 20px 0 20px 0;
+    color: $black;
+  }
+
+  .text-link {
+    font-size: 2.4em;
+    font-family: $a-fonts;
+    margin: 20px 0 20px 0;
+    color: $black;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+  }
+
+  .text-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 7px;
+    bottom: 0;
+    left: 0;
+    background-color: $primary-500;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+  }
+
+  .text-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
   }
 
   header {
@@ -25,5 +82,53 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    #hamburger-menu {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      height: 100vh;
+      width: 70vw;
+      z-index: 10;
+      top: 0;
+      left: 0;
+      background-color: #f6f6f6;
+      hr {
+        height: 10px;
+        background-color: $primary-500;
+        width: 60%;
+        margin: 0;
+      }
+
+    }
+  }
+
+  .container {
+    padding: 50px;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #EFEFEF;
+    padding: 50px;
+    #footer-link-container {
+      @include d-space-around;
+      align-items: center;
+    }
+    #social-container {
+      @include d-center;
+      align-items: center;
+      flex-direction: column;
+      #social-links-container {
+        @include d-space-between;
+        width: 25%;
+        a {
+          transition: fill 0.25s ease-in-out;
+          &:hover {
+            fill: $primary-500;
+          }
+        }
+      }
+    }
   }
 }
