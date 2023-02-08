@@ -12,3 +12,18 @@
   display: flex;
   justify-content: space-between;
 }
+
+@mixin d-space-evenly() {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@mixin d-flex-end() {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@mixin d-column() {
+  display: flex;
+  flex-direction: column;
+}

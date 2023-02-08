@@ -59,6 +59,23 @@ body {
     position: relative;
   }
 
+  .grey-btn {
+    color: $black;
+    font-family: $a-fonts;
+    text-decoration: none;
+    font-size: 2.4em;
+    padding: 20px 30px 20px 30px;
+    border-radius: 50px;
+    transition: background-color ease-in-out 150ms;
+    transition: transform ease-in-out 100ms;
+    &:hover {
+      background-color: #EFEFEF;
+    }
+    &:active {
+      transform: scale(90%);
+    }
+  }
+
   .text-link::after {
     content: '';
     position: absolute;
@@ -78,27 +95,44 @@ body {
   }
 
   header {
+    @include d-flex-end;
     padding: 75px;
-    display: flex;
     align-items: center;
-    justify-content: flex-end;
     #hamburger-menu {
-      display: flex;
-      flex-direction: column;
       position: absolute;
+      padding: 50px;
       height: 100vh;
       width: 70vw;
       z-index: 10;
       top: 0;
       left: 0;
       background-color: #f6f6f6;
-      hr {
-        height: 10px;
-        background-color: $primary-500;
-        width: 60%;
-        margin: 0;
+      #hamburger-menu-content {
+        @include d-space-between;
+        flex-direction: column;
+        height: 100%;
+        #title-separator {
+          hr {
+            height: 10px;
+            background-color: $primary-500;
+            width: 75%;
+            margin: 0;
+            border: none;
+          }
+        }
+        #hamburger-menu-links {
+          @include d-column;
+          justify-content: space-between;
+          height: 30%;
+          a {
+            width: fit-content;
+            font-size: 4em;
+          }
+        }
+        #language-switch-container {
+          @include d-space-evenly;
+        }
       }
-
     }
   }
 

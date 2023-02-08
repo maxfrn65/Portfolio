@@ -342,6 +342,22 @@ body .text-link {
   display: inline-block;
   position: relative;
 }
+body .grey-btn {
+  color: #1D1D1D;
+  font-family: "Canela Deck Trial Medium", serif;
+  text-decoration: none;
+  font-size: 2.4em;
+  padding: 20px 30px 20px 30px;
+  border-radius: 50px;
+  transition: background-color ease-in-out 150ms;
+  transition: transform ease-in-out 100ms;
+}
+body .grey-btn:hover {
+  background-color: #EFEFEF;
+}
+body .grey-btn:active {
+  transform: scale(90%);
+}
 body .text-link::after {
   content: "";
   position: absolute;
@@ -359,15 +375,14 @@ body .text-link:hover::after {
   transform-origin: bottom left;
 }
 body header {
-  padding: 75px;
   display: flex;
-  align-items: center;
   justify-content: flex-end;
+  padding: 75px;
+  align-items: center;
 }
 body header #hamburger-menu {
-  display: flex;
-  flex-direction: column;
   position: absolute;
+  padding: 50px;
   height: 100vh;
   width: 70vw;
   z-index: 10;
@@ -375,11 +390,32 @@ body header #hamburger-menu {
   left: 0;
   background-color: #f6f6f6;
 }
-body header #hamburger-menu hr {
+body header #hamburger-menu #hamburger-menu-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+body header #hamburger-menu #hamburger-menu-content #title-separator hr {
   height: 10px;
   background-color: #DA5462;
-  width: 60%;
+  width: 75%;
   margin: 0;
+  border: none;
+}
+body header #hamburger-menu #hamburger-menu-content #hamburger-menu-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30%;
+}
+body header #hamburger-menu #hamburger-menu-content #hamburger-menu-links a {
+  width: fit-content;
+  font-size: 4em;
+}
+body header #hamburger-menu #hamburger-menu-content #language-switch-container {
+  display: flex;
+  justify-content: space-evenly;
 }
 body .container {
   padding: 50px;
